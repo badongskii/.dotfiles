@@ -223,7 +223,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 
 #auto start
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec_always --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/yosemite.png
+exec_always --no-startup-id feh --bg-scale Pictures/Wallpapers/wall.jpeg
 exec --no-startup-id picom
 
 
