@@ -1,9 +1,0 @@
-configuration{
-    display-drun: "Applications";
-    drun-display-format: "{icons} {name}";
-    font: "UbuntuMono 14";
-    show-icons: true;
-    icon-theme: "Papirus";
-}
-
-@import "gruvbox.rasi"
