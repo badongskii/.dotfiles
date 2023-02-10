@@ -218,6 +218,11 @@ for_window [class="^.*"] border pixel 0
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 
+# autolock
+exec --no-startup-id xautolock -corners -000 -time 10 -locker 'i3lock -c 000000' &
+bindsym $mod+shift+m exec i3lock -c 000000 && systemctl suspend
+bindsym $mod+m exec i3lock -c 000000
+
 #auto start
 exec --no-startup-id exec bash $HOME/.fehbg
 exec --no-startup-id picom
